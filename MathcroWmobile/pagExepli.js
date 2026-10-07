@@ -982,6 +982,8 @@ document.getElementById('btn-diminuir').addEventListener('click', () => {
 
 //esconder sidebar
 
+const elemento = document.querySelector('.restomobi');
+
 document.getElementById('diminuir').addEventListener('click', () => {
     document.getElementById('sim').style.display = "none";
     document.getElementById('resto').style.marginLeft = "0";
@@ -991,7 +993,7 @@ document.getElementById('diminuir').addEventListener('click', () => {
 document.getElementById('mostrar').addEventListener('click', () => {
     document.getElementById('sim').style.display = "block";
     document.getElementById('resto').style.marginLeft = "10vw";
-    document.getElementById('restomobi').style.marginLeft = "30vw !important";
+    elemento.classList.replace('0', '30vw');
     document.getElementById('mostrar').style.display = "none";
 });
 

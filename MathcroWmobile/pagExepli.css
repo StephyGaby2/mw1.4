@@ -482,13 +482,13 @@
      REGRAS EXCLUSIVAS PARA MOBILE (CELULARES)
      ========================================== */
   @media (max-width: 768px) {
-      .simmobi {
-          width: 30vw !important;
+      .sim .simmobi {
+          width: 30vw;
           font-size: 0.4rem;
       }
   
-      .restomobi {
-          margin-left: 30vw !important;
+      .resto .restomobi {
+          margin-left: 30vw;
           padding: 15px;
       }
   
