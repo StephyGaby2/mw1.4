@@ -482,13 +482,53 @@
      REGRAS EXCLUSIVAS PARA MOBILE (CELULARES)
      ========================================== */
   @media (max-width: 768px) {
-      .sim .simmobi {
-          width: 30vw;
+      .sim {
+          width: 10vw;
           font-size: 0.4rem;
       }
+
+      #pagPrincipal {
+        font-size: 0;
+      }
+      #pagPrincipal::after {
+        content: "Pág";
+        font-size: 0.4rem;
+      }
+
+      #a_explicacao {
+        font-size: 0;
+      }
+      #a_explicacao::after{
+        content: "Ex";
+        font-size: 0.4rem;
+      }
+
+      #a_exemplos{
+        font-size: 0;
+      }
+      #a_exemplos::after{
+        content: "Ex";
+        font-size: 0.4rem;
+      }
+
+      #a_video{
+        font-size: 0;
+      }
+      #a_video::after{
+        content: "Vi";
+        font-size: 0.4rem;
+      }
+
+      #a_exercicios{
+        font-size: 0;
+      }
+      #a_exercicios::after{
+        content: "Ex";
+        font-size: 0.4rem;
+      }
   
-      .resto .restomobi {
-          margin-left: 30vw;
+      .resto {
+          margin-left: 10vw;
           padding: 15px;
       }
   
