@@ -558,6 +558,11 @@
       .explicacao {
           padding: 0 10px;
       }
+
+      .explicacao img{
+        width: 60px;
+        height: auto;
+      }
   
       .container {
           width: 90vw;
