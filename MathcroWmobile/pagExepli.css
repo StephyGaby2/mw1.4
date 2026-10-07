@@ -482,13 +482,13 @@
      REGRAS EXCLUSIVAS PARA MOBILE (CELULARES)
      ========================================== */
   @media (max-width: 768px) {
-      .sim {
-          width: 10vw;
+      .simmobi {
+          width: 30vw;
           font-size: 0.7rem;
       }
   
-      .resto {
-          margin-left: 10vw;
+      .restomobi {
+          margin-left: 30vw;
           padding: 15px;
       }
   
@@ -532,7 +532,7 @@
   
       .down-conce button {
           width: 20vw;
-          height: 20vh;
+          height: 10vh;
           font-size: 0.5rem;
       }
   

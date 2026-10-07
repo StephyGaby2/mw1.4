@@ -991,6 +991,7 @@ document.getElementById('diminuir').addEventListener('click', () => {
 document.getElementById('mostrar').addEventListener('click', () => {
     document.getElementById('sim').style.display = "block";
     document.getElementById('resto').style.marginLeft = "10vw";
+    document.getElementById('restomobi').style.marginLeft = "30vw";
     document.getElementById('mostrar').style.display = "none";
 });
 
