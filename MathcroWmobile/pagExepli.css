@@ -587,7 +587,8 @@
       }
   
       .btPomoParar {
-          width: 100px;
-          height: 40px;
+          width: 10vw;
+          height: 5vh;
+          font-size: 0,4rem;
       }
   }
