@@ -483,12 +483,12 @@
      ========================================== */
   @media (max-width: 768px) {
       .sim {
-          width: 30vw;
-          font-size: 1rem;
+          width: 10vw;
+          font-size: 0.7rem;
       }
   
       .resto {
-          margin-left: 30vw;
+          margin-left: 10vw;
           padding: 15px;
       }
   
@@ -531,9 +531,9 @@
       }
   
       .down-conce button {
-          width: 80px;
-          height: 80px;
-          font-size: 0.8rem;
+          width: 20vw;
+          height: 20vh;
+          font-size: 0.5rem;
       }
   
       .bt-abrir button {
