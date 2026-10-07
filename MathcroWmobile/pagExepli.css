@@ -483,12 +483,12 @@
      ========================================== */
   @media (max-width: 768px) {
       .simmobi {
-          width: 30vw;
-          font-size: 0.7rem;
+          width: 30vw !important;
+          font-size: 0.4rem;
       }
   
       .restomobi {
-          margin-left: 30vw;
+          margin-left: 30vw !important;
           padding: 15px;
       }
   
