@@ -483,12 +483,12 @@
      ========================================== */
   @media (max-width: 768px) {
       .sim {
-          width: 60vw;
+          width: 30vw;
           font-size: 1rem;
       }
   
       .resto {
-          margin-left: 0;
+          margin-left: 30vw;
           padding: 15px;
       }
   
