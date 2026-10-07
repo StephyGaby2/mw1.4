@@ -485,6 +485,7 @@
       .sim {
           width: 10vw;
           font-size: 0.4rem;
+          position: fixed;
       }
 
       #pagPrincipal {
@@ -561,7 +562,7 @@
       .container {
           width: 90vw;
           height: auto;
-          padding: 20px;
+          padding: 5px;
           position: relative;
       }
   
