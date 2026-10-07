@@ -587,8 +587,12 @@
       }
   
       .btPomoParar {
-          width: 10vw;
-          height: 5vh;
-          font-size: 0,4rem;
+          width: 5vw;
+          height: 2.5vh;
+          font-size: 0;
+      }
+      .btPomoParar::after{
+        content: "II";
+        font-size: 0.1rem;
       }
   }
